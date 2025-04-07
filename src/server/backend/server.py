@@ -1,4 +1,4 @@
-import server.gestore_bluetooth as gestore_bluetooth
+import gestore_bluetooth as gestore_bluetooth
 
 
 def main():

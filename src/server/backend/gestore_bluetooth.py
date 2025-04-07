@@ -2,9 +2,8 @@ import threading
 import time
 import bluetooth
 import json
-import os
 
-from server.backend.config import (
+from config import (
     NOME_DISPOSITIVO_BLUETOOTH,
     UUID_BLUETOOTH,
     DIMENSIONE_BUFFER,
