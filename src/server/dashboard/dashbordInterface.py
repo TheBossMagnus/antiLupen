@@ -15,8 +15,6 @@ def send_serial_string(string_data):
         ser.open()
         
 
-
-    
     # Convert string to bytes if needed
     data_bytes = string_data.encode('utf-8')
     ser.write(data_bytes)
@@ -26,5 +24,11 @@ def send_serial_string(string_data):
         
 
 if __name__ == "__main__":
-    test_string = "1.255.000.000\n"   
+
+    test_string = "T\n"   
     send_serial_string(test_string)
+    time.sleep(5)
+    test_string = "F\n"   
+    send_serial_string(test_string)
+
+    

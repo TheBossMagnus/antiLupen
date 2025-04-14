@@ -1,1 +1,16 @@
-{"dispositivi": {"\"": {"username": "Administrator", "cpu_temperature": "TBD", "internet_connection": true, "ram_usage": 61.6}}}
+{
+  "dispositivi": {
+    "PCTommy": {
+      "username": "tomma",
+      "cpu_temperature": "TBD",
+      "internet_connection": true,
+      "ram_usage": 85.6
+    },
+    "ACER-3182": {
+      "username": "Administrator",
+      "cpu_temperature": "TBD",
+      "internet_connection": true,
+      "ram_usage": 68.4
+    }
+  }
+}
